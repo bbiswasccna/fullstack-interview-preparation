@@ -10729,7 +10729,3 @@ class ArticleViewSet(viewsets.ModelViewSet):
         queryset = self.get_serializer_class().setup_eager_loading(queryset)
         return queryset
 ```
-
----
-
-### Q5: Explain DRF ViewS
